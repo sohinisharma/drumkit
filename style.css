@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #31304D;
+    text-align: center;
+}
+h1{
+    padding-top: 50px;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 0 #ad174c;
+}
+
+.box{
+    display: flex;  
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 140px 0px 140px 0px;
+    
+}
+
+ .w{
+    
+    background-image: url("img/tom1.png");
+      
+    
+ }
+
+ .a{
+    
+    background-image: url("img/tom2.png");
+    
+    
+ }
+
+ .s{
+    
+    background-image: url("img/tom3.png");
+    
+ }
+
+ .d{
+    
+    background-image: url("img/tom4.png");
+    
+ }
+
+ .j{
+    
+    background-image: url("img/snare.png");
+    
+ }
+
+ .k{
+    
+    background-image: url("img/crash.png");
+    
+ }
+
+ .l{
+   background-image: url("img/kick.png");
+    
+ }
+
+ .pressed {
+   box-shadow: 0 3px 4px 0 #DBEDF3;
+   opacity: 0.5;
+ }
+ 
+
+ .drum {
+    height: 150px;
+    width: 150px;
+    color: #ad174c;
+    font-size: 70px;
+    text-shadow: 3px 0 white;
+    line-height: 150px;
+    border: 10px solid #494872;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+ }
+ 
+ footer{
+   font-size: 20px;
+   color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+   .box{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+   
+ }
